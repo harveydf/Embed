@@ -19,4 +19,4 @@ def home(request):
 
 	embed = Embed.get_all(string=cadena)
 
-	return render_to_response('index.html', {'youtube': embed.string})
+	return render_to_response('index.html', {'youtube': embed})
